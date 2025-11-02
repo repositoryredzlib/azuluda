@@ -2276,7 +2276,7 @@ end
 				Position = UDim2.new(1, -10, 0.5),
 				AnchorPoint = Vector2.new(1, 0.5),
 				BackgroundTransparency = 1,
-				Image = "rbxassetid://126463403744337"
+				Image = "rbxassetid://6422245657"
 			})
 			
 			FButton.Activated:Connect(function()
@@ -2957,7 +2957,7 @@ function Tab:AddDiscordInvite(Configs)
 	local BannerArea = Create("ImageLabel", MainFrame, {
 		Size = UDim2.new(1, 0, 0.28, 0),
 		Image = BannerImage,
-		BackgroundColor3 = Color3.fromRGB(0, 80, 140),
+		BackgroundColor3 = Color3.fromRGB(0, 150, 220),
 		BackgroundTransparency = BannerImage ~= "" and 1 or 0,
 		ScaleType = Enum.ScaleType.Crop
 	})
